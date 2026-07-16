@@ -1,5 +1,6 @@
-const {model}=require("mongoose");
-const {PositionSchema}=require("../schema/PositionsSchema.js");
-const positionModel=new model("position",PositionSchema);
+const { model } = require("mongoose");
+const { PositionSchema } = require("../schema/PositionsSchema.js");
 
-module.exports={positionModel};
+const positionModel = model("position", PositionSchema);
+
+module.exports = { positionModel };
